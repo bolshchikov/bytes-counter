@@ -1,13 +1,16 @@
 'use strict';
 
-var sut = require('../lib/bytes-counter.js');
-
-beforeEach(function () {
-
-});
-
 describe('bytes-counter', function () {
-    it('should export awesome', function () {
-        expect(sut.awesome).toBeDefined();
-    });
+
+  var bytesCounter;
+
+  beforeEach(function () {
+    bytesCounter = require('../lib/bytes-counter.js');
+  });
+
+  it('should return the correct amount of bytes', function () {
+    expect(bytesCounter.count('Hello world')).toBe(11);
+    expect(bytesCounter.count('i ♥ u')).toBe(7);
+  });
+
 });
