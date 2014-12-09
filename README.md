@@ -1,6 +1,5 @@
 # bytes-counter
-[![Build Status](https://secure.travis-ci.org/bolshchikov/bytes-counter.svg?branch=master)](https://travis-ci.org/bolshchikov/bytes-counter) [![NPM version](https://badge.fury.io/js/bytes-counter.svg)](http://badge.fury.io/js/bytes-counter) [![Bower version](https://badge.fury.io/bo/bytes-counter.svg)](http://badge.fury.io/bo/bytes-counter) [![david-dm](https://david-dm.org/bolshchikov/bytes-counter.svg?theme=shields.io)](https://david-dm.org/bolshchikov/bytes-counter/)
-[![david-dm](https://david-dm.org/bolshchikov/bytes-counter/dev-status.svg?theme=shields.io)](https://david-dm.org/bolshchikov/bytes-counter#info=devDependencies&view=table)
+[![Build Status](https://secure.travis-ci.org/bolshchikov/bytes-counter.svg?branch=master)](https://travis-ci.org/bolshchikov/bytes-counter) [![NPM version](https://badge.fury.io/js/bytes-counter.svg)](http://badge.fury.io/js/bytes-counter)
 
 > Calculates the amount of bytes in JS string
 
