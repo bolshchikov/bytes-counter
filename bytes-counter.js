@@ -9,7 +9,8 @@
 'use strict';
 (function (exports) {
 exports.count = function(str) {
-    return encodeURI(str).split(/%..|./).length - 1;
+    var arg = (typeof str === 'string') ? str : JSON.stringify(str);
+    return encodeURI(arg).split(/%..|./).length - 1;
   };
 
 })(typeof(module) !== undefined && module.exports !== undefined ? module.exports : (window.bytesCounter = window.bytesCounter || {}));

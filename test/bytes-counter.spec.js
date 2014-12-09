@@ -13,4 +13,9 @@ describe('bytes-counter', function () {
     expect(bytesCounter.count('i ♥ u')).toBe(7);
   });
 
+  it('should try to stringify the passed data', function () {
+    expect(bytesCounter.count(5)).toEqual(1);
+    expect(bytesCounter.count({test: 1})).toEqual(10);
+  });
+
 });
