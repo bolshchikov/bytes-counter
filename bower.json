@@ -8,16 +8,13 @@
         "email": "sergey@bolshchikov.net",
         "url": "http://bolshchikov.net"
     },
-    "maintainers": [
-        ""
-    ],
     "license": "MIT",
     "keywords": [
         "bytes-counter",
         "javascript",
-        " bytes",
-        " counter",
-        " string"
+        "bytes",
+        "counter",
+        "string"
     ],
     "main": "./bytes-counter.js",
     "ignore": [
