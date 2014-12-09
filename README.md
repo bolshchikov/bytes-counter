@@ -8,6 +8,14 @@
     $ npm install bytes-counter
     $ bower install bytes-counter
 
+## Use
+The usage of the lib is very straight forward. Call the `count` method of bytesCounter and pass the `string`.
+In case other type is passed, the method will try to `JSON.stringify` the passed argument. 
+
+```js
+var bytes = bytesCounter.count(str);
+```
+
 ## Testing
 ### Install global dependencies
 
