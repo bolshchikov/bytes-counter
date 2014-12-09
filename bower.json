@@ -1,0 +1,40 @@
+{
+    "name": "bytes-counter",
+    "version": "0.0.0",
+    "description": "Calculates the amount of bytes in JS string",
+    "homepage": "https://github.com/bolshchikov/bytes-counter",
+    "author": {
+        "name": "Sergey N. Bolshchikov",
+        "email": "sergey@bolshchikov.net",
+        "url": "http://bolshchikov.net"
+    },
+    "maintainers": [
+        ""
+    ],
+    "license": "MIT",
+    "keywords": [
+        "bytes-counter",
+        "javascript",
+        " bytes",
+        " counter",
+        " string"
+    ],
+    "main": "./bytes-counter.js",
+    "ignore": [
+        ".*",
+        "bower_components",
+        "build",
+        "CHANGELOG.md",
+        "Gruntfile.js",
+        "lib",
+        "LICENSE",
+        "node_modules",
+        "package.json",
+        "test",
+        "validate-commit-msg.js"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
