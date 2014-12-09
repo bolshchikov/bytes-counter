@@ -1,64 +1,64 @@
 {
-    "name": "bytes-counter",
-    "version": "1.0.0",
-    "description": "Calculates the amount of bytes in JS string",
-    "homepage": "https://github.com/bolshchikov/bytes-counter",
-    "author": {
-        "name": "Sergey N. Bolshchikov",
-        "email": "sergey@bolshchikov.net",
-        "url": "http://bolshchikov.net"
-    },
-    "maintainers": [
-        ""
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/bolshchikov/bytes-counter"
-    },
-    "bugs": {
-        "url": "https://github.com/bolshchikov/bytes-counter/issues"
-    },
-    "license": "MIT",
-    "licenses": [
-        {
-           "type": "MIT",
-           "url": "https://github.com/bolshchikov/bytes-counter/blob/master/LICENSE"
-        }
-    ],
-    "keywords": [
-        "bytes-counter",
-        "javascript",
-        " bytes",
-        " counter",
-        " string"
-    ], 
-    "main": "lib/bytes-counter.js",
-    "directories": {
-       "lib": "./lib"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "grunt test"
-    },
-    "dependencies": {
-
-    },
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-bg-shell": "^2.3.1",
-        "grunt-bump": "^0.0.15",
-        "grunt-contrib-clean": "^0.6.0",
-        "grunt-contrib-concat": "^0.5.0",
-        "grunt-contrib-jshint": "^0.10.0",
-        "grunt-contrib-uglify": "^0.5.1",
-        "grunt-conventional-changelog": "^1.1.0",
-        "grunt-jasmine-node": "^0.2.1",
-        "grunt-open": "^0.2.3",
-        "grunt-release": "^0.7.0",
-        "istanbul": "^0.3.2",
-        "load-grunt-tasks": "^0.6.0",
-        "time-grunt": "^1.0.0"
+  "name": "bytes-counter",
+  "version": "1.0.0",
+  "description": "Calculates the amount of bytes in JS string",
+  "homepage": "https://github.com/bolshchikov/bytes-counter",
+  "author": {
+    "name": "Sergey N. Bolshchikov",
+    "email": "sergey@bolshchikov.net",
+    "url": "http://bolshchikov.net"
+  },
+  "maintainers": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bolshchikov/bytes-counter"
+  },
+  "bugs": {
+    "url": "https://github.com/bolshchikov/bytes-counter/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bolshchikov/bytes-counter/blob/master/LICENSE"
     }
+  ],
+  "keywords": [
+    "bytes-counter",
+    "javascript",
+    "bytes",
+    "counter",
+    "string"
+  ],
+  "main": "lib/bytes-counter.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bg-shell": "^2.3.1",
+    "grunt-bump": "^0.0.15",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-conventional-changelog": "^1.1.0",
+    "grunt-jasmine-node": "^0.2.1",
+    "grunt-open": "^0.2.3",
+    "grunt-release": "^0.7.0",
+    "istanbul": "^0.3.2",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  }
 }
