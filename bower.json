@@ -1,6 +1,6 @@
 {
     "name": "bytes-counter",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Calculates the amount of bytes in JS string",
     "homepage": "https://github.com/bolshchikov/bytes-counter",
     "author": {

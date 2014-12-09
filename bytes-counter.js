@@ -1,5 +1,5 @@
 /*!
- * bytes-counter - v0.0.0 - 2014-12-09
+ * bytes-counter - v1.0.0 - 2014-12-09
  * https://github.com/bolshchikov/bytes-counter
  *
  * Copyright (c) 2014 Sergey N. Bolshchikov
